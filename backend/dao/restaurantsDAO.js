@@ -51,6 +51,7 @@ export default class RestaurantsDAO {
                 `Unable to convert cursor to array or problem counting documents, ${e}`
             )
             return { restaurantsList: [], totalNumRestaurants: 0 }
+            
         }
     }
 
